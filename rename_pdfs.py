@@ -19,6 +19,7 @@ topic_mapping = {
     'Unit6ProgressCheckMCQPartA': 'unit6_pc_mcq_parta',
     'Unit6ProgressCheckMCQPartB': 'unit6_pc_mcq_partb',
     'Unit6ProgressCheckMCQPartC': 'unit6_pc_mcq_partc',
+    'Unit6ProgressCheckMCQPartc': 'unit6_pc_mcq_partc',
     'Unit6ProgressCheckMCQPartD': 'unit6_pc_mcq_partd',
 }
 

@@ -1,13 +1,19 @@
 LPS+ColsonR@LPS-5CD32865BG MINGW64 ~/Downloads/ApstatUnit6
 $ ls -R
 .:
-Index-reference-spec.gemini.json  gemini-index-spec-maker.txt      index.html         ls-output.txt  pdfs/            urls-map.md
-claude-build-prompt.txt           grok-gather-material-prompt.txt  knowledge-tree.md  pdf-map.txt    rename_pdfs.py*
+Index-reference-spec.gemini.json  gemini-index-spec-maker.txt      index.html         ls-output.txt  pdfs/
+claude-build-prompt.txt           grok-gather-material-prompt.txt  knowledge-tree.md  media-map.md   rename_pdfs.py*
 
 ./pdfs:
 UnitWeights.pdf  unit6/
 
 ./pdfs/unit6:
+6.10_answers.pdf  6.2_answers.pdf  6.4_answers.pdf  6.6_answers.pdf  6.8_answers.pdf  original_files/                 unit6_pc_mcq_partb_answers.pdf
+6.10_quiz.pdf     6.2_quiz.pdf     6.4_quiz.pdf     6.6_quiz.pdf     6.8_quiz.pdf     unit6_pc_frq_answers.pdf        unit6_pc_mcq_partc_answers.pdf
+6.11_answers.pdf  6.3_answers.pdf  6.5_answers.pdf  6.7_answers.pdf  6.9_answers.pdf  unit6_pc_frq_quiz.pdf           unit6_pc_mcq_partd_answers.pdf
+6.11_quiz.pdf     6.3_quiz.pdf     6.5_quiz.pdf     6.7_quiz.pdf     6.9_quiz.pdf     unit6_pc_mcq_parta_answers.pdf
+
+./pdfs/unit6/original_files:
 SG_CarryingOutaTestfortheDifferenceofTwoPopulationProportionsQuiz_67ec81f6e02e58.67ec81f8ecac82.61125384.pdf
 SG_ConcludingaTestforaPopulationProportionQuiz_67ec7fec94a883.67ec7fed8c3ca2.24902420.pdf
 SG_ConfidenceIntervalsfortheDifferenceofTwoProportionsQuiz_67ec80ed8ca8c8.67ec80efa022d1.98088784.pdf
@@ -32,6 +38,4 @@ TB_JustifyingaClaimBasedonaConfidenceIntervalforaDifferenceBetweenPopulationProp
 TB_JustifyingaClaimBasedonaConfidenceIntervalforaPopulationProportionQuiz_67ec7e87ddc950.67ec7e894d6c09.60898753.pdf
 TB_PotentialErrorsWhenPerformingTestsQuiz_67ec807eb7c327.67ec807fcf96f0.25533586.pdf
 TB_SettingUpaTestforaPopulationProportionQuiz_67ec7efcec65c6.67ec7efe6d1750.37579069.pdf
-TB_SettingUpaTestfortheDifferenceofTwoPopulationProportionsQuiz_67ec8190591e99.67ec8191ba6992.63457195.pdf
-TB_Unit6ProgressCheckFRQ_67ec824ede2978.67ec824ff08f72.53454833.pdf
-
+TB_SettingUpaTestfortheDifferenceofTwoPopulationProportionsQuiz_67ec8190591e99.
