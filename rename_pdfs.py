@@ -5,22 +5,26 @@ import re
 
 # Define the mapping of topics to their topic numbers
 topic_mapping = {
-    'TheNormalDistributionRevisited': '5.2',
-    'TheCentralLimitTheorem': '5.3',
-    'BiasedandUnbiasedPointEstimates': '5.4',
-    'SamplingDistributionsforSampleProportions': '5.5',
-    'SamplingDistributionsforDifferencesinSampleProportions': '5.6',
-    'SamplingDistributionsforSampleMeans': '5.7',
-    'SamplingDistributionsforDifferencesinSampleMeans': '5.8',
-    'Unit5ProgressCheckFRQ': 'unit5_pc_frq',
-    'Unit5ProgressCheckMCQPartA': 'unit5_pc_mcq_parta',
-    'Unit5ProgressCheckMCQPartB': 'unit5_pc_mcq_partb',
-    'Unit5ProgressCheckMCQPartC': 'unit5_pc_mcq_partc',
+    'ConstructingaConfidenceIntervalforaPopulationProportion': '6.2',
+    'JustifyingaClaimBasedonaConfidenceIntervalforaPopulationProportion': '6.3',
+    'SettingUpaTestforaPopulationProportion': '6.4',
+    'InterpretingPValues': '6.5',
+    'ConcludingaTestforaPopulationProportion': '6.6',
+    'PotentialErrorsWhenPerformingTests': '6.7',
+    'ConfidenceIntervalsfortheDifferenceofTwoProportions': '6.8',
+    'JustifyingaClaimBasedonaConfidenceIntervalforaDifferenceBetweenPopulationProportions': '6.9',
+    'SettingUpaTestfortheDifferenceofTwoPopulationProportions': '6.10',
+    'CarryingOutaTestfortheDifferenceofTwoPopulationProportions': '6.11',
+    'Unit6ProgressCheckFRQ': 'unit6_pc_frq',
+    'Unit6ProgressCheckMCQPartA': 'unit6_pc_mcq_parta',
+    'Unit6ProgressCheckMCQPartB': 'unit6_pc_mcq_partb',
+    'Unit6ProgressCheckMCQPartC': 'unit6_pc_mcq_partc',
+    'Unit6ProgressCheckMCQPartD': 'unit6_pc_mcq_partd',
 }
 
 def rename_pdfs():
-    # Path to the Unit 5 PDFs
-    pdf_dir = 'pdfs/unit5'
+    # Path to the Unit 6 PDFs
+    pdf_dir = 'pdfs/unit6'
     
     # Check if directory exists
     if not os.path.exists(pdf_dir):

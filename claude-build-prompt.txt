@@ -20,12 +20,14 @@ I need help adapting my AP Statistics educational web materials from Unit X to a
    - After renaming PDFs, modify the pdfFiles array to:
      a) Update all topic IDs, names, and descriptions based on the new unit
      b) Update PDF file paths to point to the renamed files
-     c) Update video URLs using the urls-map.md file
+     c) Update video URLs using the media-map.md file
      d) Update any unit-specific text throughout the file (titles, headers, etc.)
 
 Available reference files:
-- urls-map.md: Contains video URLs for the new unit
-- pdf-map.txt: Maps original PDF filenames to topics
+- index-reference-spec.gemini.json: Contains mapping of index.html, explaining all webpage structure.
+- media-map.md: Contains video URLs for the new unit
+- media-map.md: Maps original PDF filenames to topics
 - ls-output.txt: Directory listing showing actual PDF filenames
+- knowledge-tree.md: Topic list
 
 Please work methodically through these tasks one at a time, explaining your approach and any modifications needed as you go.
