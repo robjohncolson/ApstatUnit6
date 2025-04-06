@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AP Statistics Unit 5: Sampling Distributions</title>
+    <title>AP Statistics Unit 6: Inference for Categorical Data: Proportions</title>
 
     <!-- AP Statistics Data -->
     <script src="js/allUnitsData.js"></script>    
@@ -63,10 +63,10 @@
 <body class="bg-gray-100 min-h-screen">
     <div class="container mx-auto px-4 py-8">
         <header class="text-center mb-8">
-            <h1 class="text-3xl font-bold text-blue-600">AP Statistics Unit 5: Sampling Distributions</h1>
+            <h1 class="text-3xl font-bold text-blue-600">AP Statistics Unit 6: Inference for Categorical Data: Proportions</h1>
             <p class="text-gray-600 mt-2">Tools and guides to help you succeed in AP Statistics</p>
             <div class="mt-2 bg-yellow-100 text-yellow-800 px-4 py-2 rounded-md inline-block">
-                <span class="font-semibold">Exam Weight:</span> Unit 5 represents 7-12% of the AP Statistics Exam
+                <span class="font-semibold">Exam Weight:</span> Unit 6 represents 12-15% of the AP Statistics Exam
             </div>
         </header>
         
@@ -211,7 +211,7 @@
                 <!-- All Topics Completed Message -->
                 <div id="all-completed-container" class="hidden mb-6 p-6 bg-green-50 border border-green-200 rounded-lg text-center">
                     <h3 class="text-xl font-bold text-green-700 mb-2">🎉 Congratulations! 🎉</h3>
-                    <p class="text-green-700 mb-4">You've completed all Unit 5 topics including the capstone Progress Check!</p>
+                    <p class="text-green-700 mb-4">You've completed all Unit 6 topics including the capstone Progress Check!</p>
                     <button id="reset-progress-btn" class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600">
                         Reset Progress
                     </button>
@@ -314,7 +314,7 @@
             }
         }
         // In Unit 1's index.html
-        const UNIT_ID = '5';
+        const UNIT_ID = '6';
         // Supabase initialization
         const SUPABASE_URL = 'https://rmqetzxoqupnggltuzqf.supabase.co';
         const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJtcWV0enhvcXVwbmdnbHR1enFmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM3MjM2NzAsImV4cCI6MjA1OTI5OTY3MH0.9I56L1kC_4JJr_u9LuDgQ2ZV5C0y_-yic828UeCiuUk';
@@ -888,13 +888,13 @@ Thank you for helping me prepare for my AP Statistics exam!`;
         // Define the PDF files and organize them by topic
         const pdfFiles = [
         {
-        id: "5-1",
-        name: "Topic 5.1",
-        description: "Introducing Statistics: Why Is My Sample Not Like Yours?",
+        id: "6-1",
+        name: "Topic 6.1",
+        description: "Introducing Statistics: Why Be Normal?",
         videos: [
             {
-                url: "https://apclassroom.collegeboard.org/d/951j439qxl?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1QtdgRvz6FDzTKK4UgACKVxdqJMyZDGR8/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/w7b6pfew1i?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1fKcwvZJ-k_1_W4oNdavj1PhE5HdxpwiA/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             }
@@ -903,34 +903,34 @@ Thank you for helping me prepare for my AP Statistics exam!`;
         current: false
       },
       {
-        id: "5-2",
-        name: "Topic 5.2",
-        description: "The Normal Distribution, Revisited",
+        id: "6-2",
+        name: "Topic 6.2",
+        description: "Constructing a Confidence Interval for a Population Proportion",
         videos: [
             {
-                url: "https://apclassroom.collegeboard.org/d/3ahfseusno?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1JFYjH0zXcPRk4Z18dTnbqWQLhu6IM_y3/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/cue0tavkxg?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1Z1IVxhFEx4Bul3FfJHBqBSn8LyTDMfOB/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             },
             {
-                url: "https://apclassroom.collegeboard.org/d/xas8ymbml4?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1pRBVyjLPY1aEPGbkTdYzt5aPlQIy9FDW/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/sa1jzello1?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1fq3GJRjLgVz9HOo5_1SkHtCOd306KBrw/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             },
             {
-                url: "https://apclassroom.collegeboard.org/d/5cjfnynb4w?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1HVGa0OuHML6pHhGdp4UOln6oncX3n53_/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/ho2mfeuu5x?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1jmaj_VpyrN_KyBLEm3rfPx8Bo-cQiEjG/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             }
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit5/5.2_quiz.pdf",
-                answersPdf: "pdfs/unit5/5.2_answers.pdf",
-                quizId: "5-2_q1",
+                questionPdf: "pdfs/unit6/6.2_quiz.pdf",
+                answersPdf: "pdfs/unit6/6.2_answers.pdf",
+                quizId: "6-2_q1",
                 completed: false,
                 completionDate: null
             }
@@ -938,80 +938,34 @@ Thank you for helping me prepare for my AP Statistics exam!`;
         current: false
       },
       {
-        id: "5-3",
-        name: "Topic 5.3",
-        description: "The Central Limit Theorem",
+        id: "6-3",
+        name: "Topic 6.3",
+        description: "Justifying a Claim Based on a Confidence Interval for a Population Proportion",
         videos: [
             {
-                url: "https://apclassroom.collegeboard.org/d/sayt12b4ew?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1N5xTQ9hpOwIDTxbF0AxIzPxxaCbmOWaA/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/5096or6fs1?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1jeFQcdB2pJN0iZbYzB_MZcvotx00A0mr/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             },
             {
-                url: "https://apclassroom.collegeboard.org/d/7vvumt4qzm?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1Lrf2azQI_qx0zLOyp0Yn-TS11zK4fb5u/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit5/5.3_quiz.pdf",
-                answersPdf: "pdfs/unit5/5.3_answers.pdf",
-                quizId: "5-3_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "5-4",
-        name: "Topic 5.4",
-        description: "Biased and Unbiased Point Estimates",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/0k9y4dbl6i?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1n0CE4BjYdx_bRDz-iEH2FyK7sfgcG3Mj/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit5/5.4_quiz.pdf",
-                answersPdf: "pdfs/unit5/5.4_answers.pdf",
-                quizId: "5-4_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "5-5",
-        name: "Topic 5.5",
-        description: "Sampling Distributions for Sample Proportions",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/n68xwj4nrz?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1y1iW173PGADlfmDuZuvUYwg-czY2FKCo/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/9nl593n5le?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1VkVgzdGiy73QAzXzBevf-Rb-kcFBRXNr/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             },
             {
-                url: "https://apclassroom.collegeboard.org/d/3hds9p8qlq?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1EosOt0OTG3faHrdnkhQy-SrFdAxRndjF/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/avzy7twn1u?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1Tv1o7BEvI0vaM8Ec09E2MuDjFwpUGo1X/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             }
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit5/5.5_quiz.pdf",
-                answersPdf: "pdfs/unit5/5.5_answers.pdf",
-                quizId: "5-5_q1",
+                questionPdf: "pdfs/unit6/6.3_quiz.pdf",
+                answersPdf: "pdfs/unit6/6.3_answers.pdf",
+                quizId: "6-3_q1",
                 completed: false,
                 completionDate: null
             }
@@ -1019,28 +973,28 @@ Thank you for helping me prepare for my AP Statistics exam!`;
         current: false
       },
       {
-        id: "5-6",
-        name: "Topic 5.6",
-        description: "Sampling Distributions for Differences in Sample Proportions",
+        id: "6-4",
+        name: "Topic 6.4",
+        description: "Setting Up a Test for a Population Proportion",
         videos: [
             {
-                url: "https://apclassroom.collegeboard.org/d/hl9fyvkpih?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1XufYZpotzaSRppEfFckSzr6mVavfTWoX/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/pde094fkxp?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/11xz3nOZxcbyVkG5zbq62s0A1Bjl4hSaL/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             },
             {
-                url: "https://apclassroom.collegeboard.org/d/ik3wqrxnwg?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1_C6vTO44i3ypH5wU2XYU53BOa4whSZxW/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/mg1k959s5t?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1WcGkierE6UKER-UtAX-7HbGtwbmJlbZv/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             }
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit5/5.6_quiz.pdf",
-                answersPdf: "pdfs/unit5/5.6_answers.pdf",
-                quizId: "5-6_q1",
+                questionPdf: "pdfs/unit6/6.4_quiz.pdf",
+                answersPdf: "pdfs/unit6/6.4_answers.pdf",
+                quizId: "6-4_q1",
                 completed: false,
                 completionDate: null
             }
@@ -1048,28 +1002,28 @@ Thank you for helping me prepare for my AP Statistics exam!`;
         current: false
       },
       {
-        id: "5-7",
-        name: "Topic 5.7",
-        description: "Sampling Distributions for Sample Means",
+        id: "6-5",
+        name: "Topic 6.5",
+        description: "Interpreting p-Values",
         videos: [
             {
-                url: "https://apclassroom.collegeboard.org/d/9a15613osy?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1ovisJH6Caxyyg8bLqPfGINveGYqQGD39/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/xkvphnx7qu?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1K1SjzRvRK_7YmJCDwktQvqDKrZl0hXes/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             },
             {
-                url: "https://apclassroom.collegeboard.org/d/em70n6vdbf?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1J9UirY-l46WkrwlJRC-kX42vYd2t7_26/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/crg48hjihw?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1_C9FAHoG_78nqXAcBh-REYx7a79zC7Cl/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             }
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit5/5.7_quiz.pdf",
-                answersPdf: "pdfs/unit5/5.7_answers.pdf",
-                quizId: "5-7_q1",
+                questionPdf: "pdfs/unit6/6.5_quiz.pdf",
+                answersPdf: "pdfs/unit6/6.5_answers.pdf",
+                quizId: "6-5_q1",
                 completed: false,
                 completionDate: null
             }
@@ -1077,28 +1031,28 @@ Thank you for helping me prepare for my AP Statistics exam!`;
         current: false
       },
       {
-        id: "5-8",
-        name: "Topic 5.8",
-        description: "Sampling Distributions for Differences in Sample Means",
+        id: "6-6",
+        name: "Topic 6.6",
+        description: "Concluding a Test for a Population Proportion",
         videos: [
             {
-                url: "https://apclassroom.collegeboard.org/d/vdhw7lx8zh?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1zaan99AFqpAEwbvLob9LwBqV-dji4Yli/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/7tp98ixuv7?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1DMt9tQ1_QTmBEQtOZAAukjxirGcMBrUf/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             },
             {
-                url: "https://apclassroom.collegeboard.org/d/8tey1w8y00?sui=33,5",
-                altUrl: "https://drive.google.com/file/d/1s-fZYap_45Cl2DKzsZV3l4UNs8RzCxNr/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/a2xb71gu0q?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1SwyAJpXZF5U7GUm2jUNMlx5dV9JfX5rx/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             }
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit5/5.8_quiz.pdf",
-                answersPdf: "pdfs/unit5/5.8_answers.pdf",
-                quizId: "5-8_q1",
+                questionPdf: "pdfs/unit6/6.6_quiz.pdf",
+                answersPdf: "pdfs/unit6/6.6_answers.pdf",
+                quizId: "6-6_q1",
                 completed: false,
                 completionDate: null
             }
@@ -1106,36 +1060,194 @@ Thank you for helping me prepare for my AP Statistics exam!`;
         current: false
       },
       {
-        id: "5-capstone",
-        name: "Unit 5 Progress Check",
+        id: "6-7",
+        name: "Topic 6.7",
+        description: "Potential Errors When Performing Tests",
+        videos: [
+            {
+                url: "https://apclassroom.collegeboard.org/d/6tvg0n0vow?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1xbhiSuRKc4cfXW3Ppb7iItQoh1FM_QRX/view?usp=drive_link",
+                completed: false,
+                completionDate: null
+            },
+            {
+                url: "https://apclassroom.collegeboard.org/d/0nelp4z6as?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/12sJrnadHPSRJ6RUauB-VWpUnhMEunCvH/view?usp=drive_link",
+                completed: false,
+                completionDate: null
+            }
+        ],
+        quizzes: [
+            {
+                questionPdf: "pdfs/unit6/6.7_quiz.pdf",
+                answersPdf: "pdfs/unit6/6.7_answers.pdf",
+                quizId: "6-7_q1",
+                completed: false,
+                completionDate: null
+            }
+        ],
+        current: false
+      },
+      {
+        id: "6-8",
+        name: "Topic 6.8",
+        description: "Confidence Intervals for the Difference of Two Proportions",
+        videos: [
+            {
+                url: "https://apclassroom.collegeboard.org/d/2722ixl0j3?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1mRfi7bTMSHtadxhLc2pAEmAMjmLpgvZn/view?usp=drive_link",
+                completed: false,
+                completionDate: null
+            },
+            {
+                url: "https://apclassroom.collegeboard.org/d/ylbup5g6tt?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1cH5jaDvcEOCQ6RGeLZxaqGVOFFt1nT5F/view?usp=drive_link",
+                completed: false,
+                completionDate: null
+            }
+        ],
+        quizzes: [
+            {
+                questionPdf: "pdfs/unit6/6.8_quiz.pdf",
+                answersPdf: "pdfs/unit6/6.8_answers.pdf",
+                quizId: "6-8_q1",
+                completed: false,
+                completionDate: null
+            }
+        ],
+        current: false
+      },
+      {
+        id: "6-9",
+        name: "Topic 6.9",
+        description: "Justifying a Claim Based on a Confidence Interval for a Difference of Population Proportions",
+        videos: [
+            {
+                url: "https://apclassroom.collegeboard.org/d/dpnop7yqy7?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1LqtzJe8MTykYtX8mVcf4pbU1BtVcvwfb/view?usp=drive_link",
+                completed: false,
+                completionDate: null
+            },
+            {
+                url: "https://apclassroom.collegeboard.org/d/px2wxa1pql?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1pBYs6pAkS_RyUVfNMxoaKvg8tuapkNFe/view?usp=drive_link",
+                completed: false,
+                completionDate: null
+            }
+        ],
+        quizzes: [
+            {
+                questionPdf: "pdfs/unit6/6.9_quiz.pdf",
+                answersPdf: "pdfs/unit6/6.9_answers.pdf",
+                quizId: "6-9_q1",
+                completed: false,
+                completionDate: null
+            }
+        ],
+        current: false
+      },
+      {
+        id: "6-10",
+        name: "Topic 6.10",
+        description: "Setting Up a Test for the Difference of Two Population Proportions",
+        videos: [
+            {
+                url: "https://apclassroom.collegeboard.org/d/ycy5l5nclj?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1dIRMyHdePpkx7pCJFcAkRHIPj2Q8RtqG/view?usp=drive_link",
+                completed: false,
+                completionDate: null
+            },
+            {
+                url: "https://apclassroom.collegeboard.org/d/etzlkyzo8u?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1SDYELDZa9kcJldq_qf1DsOOMhrjzfkio/view?usp=drive_link",
+                completed: false,
+                completionDate: null
+            }
+        ],
+        quizzes: [
+            {
+                questionPdf: "pdfs/unit6/6.10_quiz.pdf",
+                answersPdf: "pdfs/unit6/6.10_answers.pdf",
+                quizId: "6-10_q1",
+                completed: false,
+                completionDate: null
+            }
+        ],
+        current: false
+      },
+      {
+        id: "6-11",
+        name: "Topic 6.11",
+        description: "Carrying Out a Test for the Difference of Two Population Proportions",
+        videos: [
+            {
+                url: "https://apclassroom.collegeboard.org/d/f1fyz21kv4?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1nJ5tGJ5m9ft1c8yieYqHjCQAvZLotnD1/view?usp=drive_link",
+                completed: false,
+                completionDate: null
+            },
+            {
+                url: "https://apclassroom.collegeboard.org/d/xjd28ei312?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1rEKSvHoivPVRtsq63NOys-A5x-xtMjoG/view?usp=drive_link",
+                completed: false,
+                completionDate: null
+            },
+            {
+                url: "https://apclassroom.collegeboard.org/d/8xwgbceh02?sui=33,6",
+                altUrl: "https://drive.google.com/file/d/1K9ZtMx2HhFlPWXq6Ip-7slWaY0zJDMOU/view?usp=drive_link",
+                completed: false,
+                completionDate: null
+            }
+        ],
+        quizzes: [
+            {
+                questionPdf: "pdfs/unit6/6.11_quiz.pdf",
+                answersPdf: "pdfs/unit6/6.11_answers.pdf",
+                quizId: "6-11_q1",
+                completed: false,
+                completionDate: null
+            }
+        ],
+        current: false
+      },
+      {
+        id: "6-capstone",
+        name: "Unit 6 Progress Check",
         description: "Capstone Assessment",
         videos: [],
         quizzes: [
             {
-                questionPdf: "pdfs/unit5/unit5_pc_frq_quiz.pdf",
-                answersPdf: "pdfs/unit5/unit5_pc_frq_answers.pdf",
-                quizId: "5-capstone_q1",
+                questionPdf: "pdfs/unit6/unit6_pc_frq_quiz.pdf",
+                answersPdf: "pdfs/unit6/unit6_pc_frq_answers.pdf",
+                quizId: "6-capstone_q1",
                 completed: false,
                 completionDate: null
             },
             {
                 questionPdf: null,
-                answersPdf: "pdfs/unit5/unit5_pc_mcq_parta_answers.pdf",
-                quizId: "5-capstone_q2",
+                answersPdf: "pdfs/unit6/unit6_pc_mcq_parta_answers.pdf",
+                quizId: "6-capstone_q2",
                 completed: false,
                 completionDate: null
             },
             {
                 questionPdf: null,
-                answersPdf: "pdfs/unit5/unit5_pc_mcq_partb_answers.pdf",
-                quizId: "5-capstone_q3",
+                answersPdf: "pdfs/unit6/unit6_pc_mcq_partb_answers.pdf",
+                quizId: "6-capstone_q3",
                 completed: false,
                 completionDate: null
             },
             {
                 questionPdf: null,
-                answersPdf: "pdfs/unit5/unit5_pc_mcq_partc_answers.pdf",
-                quizId: "5-capstone_q4",
+                answersPdf: "pdfs/unit6/unit6_pc_mcq_partc_answers.pdf",
+                quizId: "6-capstone_q4",
+                completed: false,
+                completionDate: null
+            },
+            {
+                questionPdf: null,
+                answersPdf: "pdfs/unit6/unit6_pc_mcq_partd_answers.pdf",
+                quizId: "6-capstone_q5",
                 completed: false,
                 completionDate: null
             }
