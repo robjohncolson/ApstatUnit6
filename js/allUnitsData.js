@@ -1380,8 +1380,8 @@ const ALL_UNITS_DATA = [
             ],
             quizzes: [
                 {
-                    questionPdf: "pdfs/unit6/6.2_quiz.pdf",
-                    answersPdf: "pdfs/unit6/6.2_answers.pdf",
+                    questionPdf: "pdfs/unit6/unit6_section6.2_quiz.pdf",
+                    answersPdf: "pdfs/unit6/unit6_section6.2_answers.pdf",
                     quizId: "6-2_q1",
                     completed: false,
                     completionDate: null
@@ -1415,8 +1415,8 @@ const ALL_UNITS_DATA = [
             ],
             quizzes: [
                 {
-                    questionPdf: "pdfs/unit6/6.3_quiz.pdf",
-                    answersPdf: "pdfs/unit6/6.3_answers.pdf",
+                    questionPdf: "pdfs/unit6/unit6_section6.3_quiz.pdf",
+                    answersPdf: "pdfs/unit6/unit6_section6.3_answers.pdf",
                     quizId: "6-3_q1",
                     completed: false,
                     completionDate: null
@@ -1444,8 +1444,8 @@ const ALL_UNITS_DATA = [
             ],
             quizzes: [
                 {
-                    questionPdf: "pdfs/unit6/6.4_quiz.pdf",
-                    answersPdf: "pdfs/unit6/6.4_answers.pdf",
+                    questionPdf: "pdfs/unit6/unit6_section6.4_quiz.pdf",
+                    answersPdf: "pdfs/unit6/unit6_section6.4_answers.pdf",
                     quizId: "6-4_q1",
                     completed: false,
                     completionDate: null
@@ -1473,8 +1473,8 @@ const ALL_UNITS_DATA = [
             ],
             quizzes: [
                 {
-                    questionPdf: "pdfs/unit6/6.5_quiz.pdf",
-                    answersPdf: "pdfs/unit6/6.5_answers.pdf",
+                    questionPdf: "pdfs/unit6/unit6_section6.5_quiz.pdf",
+                    answersPdf: "pdfs/unit6/unit6_section6.5_answers.pdf",
                     quizId: "6-5_q1",
                     completed: false,
                     completionDate: null
@@ -1502,8 +1502,8 @@ const ALL_UNITS_DATA = [
             ],
             quizzes: [
                 {
-                    questionPdf: "pdfs/unit6/6.6_quiz.pdf",
-                    answersPdf: "pdfs/unit6/6.6_answers.pdf",
+                    questionPdf: "pdfs/unit6/unit6_section6.6_quiz.pdf",
+                    answersPdf: "pdfs/unit6/unit6_section6.6_answers.pdf",
                     quizId: "6-6_q1",
                     completed: false,
                     completionDate: null
@@ -1531,8 +1531,8 @@ const ALL_UNITS_DATA = [
             ],
             quizzes: [
                 {
-                    questionPdf: "pdfs/unit6/6.7_quiz.pdf",
-                    answersPdf: "pdfs/unit6/6.7_answers.pdf",
+                    questionPdf: "pdfs/unit6/unit6_section6.7_quiz.pdf",
+                    answersPdf: "pdfs/unit6/unit6_section6.7_answers.pdf",
                     quizId: "6-7_q1",
                     completed: false,
                     completionDate: null
@@ -1560,8 +1560,8 @@ const ALL_UNITS_DATA = [
             ],
             quizzes: [
                 {
-                    questionPdf: "pdfs/unit6/6.8_quiz.pdf",
-                    answersPdf: "pdfs/unit6/6.8_answers.pdf",
+                    questionPdf: "pdfs/unit6/unit6_section6.8_quiz.pdf",
+                    answersPdf: "pdfs/unit6/unit6_section6.8_answers.pdf",
                     quizId: "6-8_q1",
                     completed: false,
                     completionDate: null
@@ -1589,8 +1589,8 @@ const ALL_UNITS_DATA = [
             ],
             quizzes: [
                 {
-                    questionPdf: "pdfs/unit6/6.9_quiz.pdf",
-                    answersPdf: "pdfs/unit6/6.9_answers.pdf",
+                    questionPdf: "pdfs/unit6/unit6_section6.9_quiz.pdf",
+                    answersPdf: "pdfs/unit6/unit6_section6.9_answers.pdf",
                     quizId: "6-9_q1",
                     completed: false,
                     completionDate: null
@@ -1618,8 +1618,8 @@ const ALL_UNITS_DATA = [
             ],
             quizzes: [
                 {
-                    questionPdf: "pdfs/unit6/6.10_quiz.pdf",
-                    answersPdf: "pdfs/unit6/6.10_answers.pdf",
+                    questionPdf: "pdfs/unit6/unit6_section6.10_quiz.pdf",
+                    answersPdf: "pdfs/unit6/unit6_section6.10_answers.pdf",
                     quizId: "6-10_q1",
                     completed: false,
                     completionDate: null
@@ -1653,8 +1653,8 @@ const ALL_UNITS_DATA = [
             ],
             quizzes: [
                 {
-                    questionPdf: "pdfs/unit6/6.11_quiz.pdf",
-                    answersPdf: "pdfs/unit6/6.11_answers.pdf",
+                    questionPdf: "pdfs/unit6/unit6_section6.11_quiz.pdf",
+                    answersPdf: "pdfs/unit6/unit6_section6.11_answers.pdf",
                     quizId: "6-11_q1",
                     completed: false,
                     completionDate: null
