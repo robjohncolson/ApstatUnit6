@@ -614,7 +614,18 @@ const ALL_UNITS_DATA = [
         name: "Topic 3.3",
         description: "Random Sampling and Data Collection",
         videos: [
-          /* video entries */
+          {
+            url: "https://apclassroom.collegeboard.org/d/0we2mcfcam?sui=33,3",
+            altUrl: "https://drive.google.com/file/d/1ogJAzU5hvGomK2eZGCkMza7EOpU67BaT/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+          },
+          {
+            url: "https://apclassroom.collegeboard.org/d/ljd0cb2e7u?sui=33,3",
+            altUrl: "https://drive.google.com/file/d/1jiVMlN3Y_xdARYHGB1ASbOSwroRfuFCB/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+          }
         ],
         quizzes: [
           {
@@ -632,7 +643,12 @@ const ALL_UNITS_DATA = [
         name: "Topic 3.4",
         description: "Potential Problems with Sampling",
         videos: [
-          /* video entries */
+          {
+            url: "https://apclassroom.collegeboard.org/d/tndkb7he2i?sui=33,3",
+            altUrl: "https://drive.google.com/file/d/1o3YuZt7Kai5qovHysWo4vaXlHp3WXtc9/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+          }
         ],
         quizzes: [
           {
@@ -650,7 +666,24 @@ const ALL_UNITS_DATA = [
         name: "Topic 3.5",
         description: "Introduction to Experimental Design",
         videos: [
-          /* video entries */
+          {
+            url: "https://apclassroom.collegeboard.org/d/k19v0dbk86?sui=33,3",
+            altUrl: "https://drive.google.com/file/d/1PVA-SIVNccjFYexZsUrHbdCps1wlKeBl/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+          },
+          {
+            url: "https://apclassroom.collegeboard.org/d/z5lwfxjjdv?sui=33,3",
+            altUrl: "https://drive.google.com/file/d/1x43Gy-QtIflBQXHe39LqIkABco0qrkMi/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+          },
+          {
+            url: "https://apclassroom.collegeboard.org/d/0xfkk5691j?sui=33,3",
+            altUrl: "https://drive.google.com/file/d/1pp-KwUGnBS-6RWvB4U5eKxopkCOYQ9KD/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+          }
         ],
         quizzes: [
           {
@@ -668,7 +701,18 @@ const ALL_UNITS_DATA = [
         name: "Topic 3.6",
         description: "Selecting an Experimental Design",
         videos: [
-          /* video entries */
+          {
+            url: "https://apclassroom.collegeboard.org/d/2ausyc2u4j?sui=33,3",
+            altUrl: "https://drive.google.com/file/d/14I05d33AzFvCrjTAFSxtAlPiFLEuspZK/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+          },
+          {
+            url: "https://apclassroom.collegeboard.org/d/01da23635a?sui=33,3",
+            altUrl: "https://drive.google.com/file/d/1DQZQMZVzesDILUqzVetIysD7DB94UYVT/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+          }
         ],
         quizzes: [
           {
@@ -686,7 +730,12 @@ const ALL_UNITS_DATA = [
         name: "Topic 3.7",
         description: "Inference and Experiments",
         videos: [
-          /* video entries */
+          {
+            url: "https://apclassroom.collegeboard.org/d/cgkp7vw65d?sui=33,3",
+            altUrl: "https://drive.google.com/file/d/10TnxIb09QzsRvYQm-G3eiWQ5CSrELuJz/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+          }
         ],
         quizzes: [
           {
@@ -1714,12 +1763,347 @@ const ALL_UNITS_DATA = [
     topics: [
       {
         id: "7-1",
-        name: "Topic 7.1",
-        description: "Introducing Statistics: Should I Worry About Error?",
+      name: "Topic 7.1",
+      description: "Introducing Statistics: Should I Worry About Error?",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/3t8pczvov0?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1DRCmH8ENSMJwf75yG-M_hPnUWcF2uww4/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [],
+      current: false
+    },
+    {
+      id: "7-2",
+      name: "Topic 7.2",
+      description: "Constructing a Confidence Interval for a Population Mean",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/tapwqbw3dq?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1QOnc8wCvA10U9AvoAfl9ksdmnzC7rIi1/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/utu3y3bkag?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1CaDaKiUhi3e954ZcpVYUEVpWZdKgNi0o/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/pytemtrew7?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1eQUfrAiMrRCz1GpDzzQJ4ueBD3IQiD6z/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [
+          {
+              questionPdf: "pdfs/unit7/unit7_section7.2_quiz.pdf",
+              answersPdf: "pdfs/unit7/unit7_section7.2_answers.pdf",
+              quizId: "7-2_q1",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      current: false
+    },
+    {
+      id: "7-3",
+      name: "Topic 7.3",
+      description: "Justifying a Claim About a Population Mean Based on a Confidence Interval",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/b1ywa7d80z?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/12f3_LWkXq3ezMJwDaFfGlxobizRKvj1I/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/xk5a52ajgk?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1ie_ChlondI_Y1tiTlEum5OZAGovX5R2u/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/lghtcfwy1x?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1VP_COxmeIU2S0jC24EgYgAnRqnsJz9B6/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [
+          {
+              questionPdf: "pdfs/unit7/unit7_section7.3_quiz.pdf",
+              answersPdf: "pdfs/unit7/unit7_section7.3_answers.pdf",
+              quizId: "7-3_q1",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      current: false
+    },
+    {
+      id: "7-4",
+      name: "Topic 7.4",
+      description: "Setting Up a Test for a Population Mean",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/kyfddpb99h?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1ugAdsbFI9jyFAClJPphWtmva2DWNron2/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/2ufhcaan1t?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1093Dkx-RAxtiFVsWnnZ22rS1E6Tkhau6/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [
+          {
+              questionPdf: "pdfs/unit7/unit7_section7.4_quiz.pdf",
+              answersPdf: "pdfs/unit7/unit7_section7.4_answers.pdf",
+              quizId: "7-4_q1",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      current: false
+    },
+    {
+      id: "7-5",
+      name: "Topic 7.5",
+      description: "Carrying Out a Test for the Population Mean",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/6vq538ni85?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1h5r9eDoSwjLJye7PeHcz68AI5p-RDFeR/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/pc2evx8bvr?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/14CEJsy6KqSjm-kPilGkdhzSidogpeRf6/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/n1c6957pbw?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/13htsG5jUJZbwNCi9gAr1DEglECxHE-j5/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [
+          {
+              questionPdf: "pdfs/unit7/unit7_section7.5_quiz.pdf",
+              answersPdf: "pdfs/unit7/unit7_section7.5_answers.pdf",
+              quizId: "7-5_q1",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      current: false
+    },
+    {
+      id: "7-6",
+      name: "Topic 7.6",
+      description: "Confidence Intervals for the Difference of Two Means",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/9i05oi3975?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1fIwr8VpJ1OfuMxmweLAYOL88CLUVpzvF/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/q64qp5gkag?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1dju4ZGQzNLFdFbR5oCoz4e9bzQHapIVk/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [
+          {
+              questionPdf: "pdfs/unit7/unit7_section7.6_quiz.pdf",
+              answersPdf: "pdfs/unit7/unit7_section7.6_answers.pdf",
+              quizId: "7-6_q1",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      current: false
+    },
+    {
+      id: "7-7",
+      name: "Topic 7.7",
+      description: "Justifying a Claim About the Difference of Two Means Based on a Confidence Interval",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/rgaf9khpy1?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1bkfmDJMIaDxbg2XTAnRfdpamFMSCFfM-/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/fbif6dujgq?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1njeWzbSUOPWw0fZHWoYBU7uca9RbduBU/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [
+          {
+              questionPdf: "pdfs/unit7/unit7_section7.7_quiz.pdf",
+              answersPdf: "pdfs/unit7/unit7_section7.7_answers.pdf",
+              quizId: "7-7_q1",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      current: false
+    },
+    {
+      id: "7-8",
+      name: "Topic 7.8",
+      description: "Setting Up a Test for the Difference of Two Population Means",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/kf1yd6gpdi?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1uLGTaehZ2mRh5el69Zu88SnsWfwiKwRR/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/9xskxlobvm?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1PAx6MB_d4DDsF5KHYAbxjOf7VUP0_-E5/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [
+          {
+              questionPdf: "pdfs/unit7/unit7_section7.8_quiz.pdf",
+              answersPdf: "pdfs/unit7/unit7_section7.8_answers.pdf",
+              quizId: "7-8_q1",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      current: false
+    },
+    {
+      id: "7-9",
+      name: "Topic 7.9",
+      description: "Carrying Out a Test for the Difference of Two Population Means",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/2kkmkj7ric?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1329C4d76DZoxl1yQQql_T9SAeoHedObV/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/j22ffmh28e?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1bJ-id40s9xbnD2UZp9bzfBAKxUwtOT2q/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/ox9np4xfys?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1BWoDK2CpQFkIjMsZtzrHb3VjiaJCQlw-/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [
+          {
+              questionPdf: "pdfs/unit7/unit7_section7.9_quiz.pdf",
+              answersPdf: "pdfs/unit7/unit7_section7.9_answers.pdf",
+              quizId: "7-9_q1",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      current: false
+    },
+    {
+      id: "7-10",
+      name: "Topic 7.10",
+      description: "Skills Focus: Selecting, Implementing, and Communicating Inference Procedures",
+      videos: [
+          {
+              url: "https://apclassroom.collegeboard.org/d/p1yut2e5pp?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/19SaxraKugKUY6Q1xjbanPY81njG45xBH/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          },
+          {
+              url: "https://apclassroom.collegeboard.org/d/dkerwbidln?sui=33,7",
+              altUrl: "https://drive.google.com/file/d/1LiE45fJPP_XMvutGZzVtr3QfNicJedMi/view?usp=drive_link",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      quizzes: [],
+      current: false
+    },
+    {
+      id: "7-capstone",
+      name: "Unit 7 Progress Check",
+      description: "Capstone Assessment",
+      videos: [],
+      quizzes: [
+          {
+              questionPdf: "pdfs/unit7/unit7_pc_frq_quiz.pdf",
+              answersPdf: "pdfs/unit7/unit7_pc_frq_answers.pdf",
+              quizId: "7-capstone_q1",
+              completed: false,
+              completionDate: null
+          },
+          {
+              questionPdf: null,
+              answersPdf: "pdfs/unit7/unit7_pc_mcq_parta_answers.pdf",
+              quizId: "7-capstone_q2",
+              completed: false,
+              completionDate: null
+          },
+          {
+              questionPdf: null,
+              answersPdf: "pdfs/unit7/unit7_pc_mcq_partb_answers.pdf",
+              quizId: "7-capstone_q3",
+              completed: false,
+              completionDate: null
+          },
+          {
+              questionPdf: null,
+              answersPdf: "pdfs/unit7/unit7_pc_mcq_partc_answers.pdf",
+              quizId: "7-capstone_q4",
+              completed: false,
+              completionDate: null
+          }
+      ],
+      isCapstone: true,
+      current: false
+      }
+    ]
+  },
+  {
+    unitId: 'unit8',
+    topics: [
+      {
+        id: "8-1",
+        name: "Topic 8.1",
+        description: "Introducing Statistics: Are My Results Unexpected?",
         videos: [
             {
-                url: "https://apclassroom.collegeboard.org/d/3t8pczvov0?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1DRCmH8ENSMJwf75yG-M_hPnUWcF2uww4/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/ej0nzh9akp?sui=33,8",
+                altUrl: "https://drive.google.com/file/d/1kw-NYDqOcOUP8zvAsSuzIfuQ9KXow99C/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             }
@@ -1728,34 +2112,34 @@ const ALL_UNITS_DATA = [
         current: false
       },
       {
-        id: "7-2",
-        name: "Topic 7.2",
-        description: "Constructing a Confidence Interval for a Population Mean",
+        id: "8-2",
+        name: "Topic 8.2",
+        description: "Setting Up a Chi-Square Goodness of Fit Test",
         videos: [
             {
-                url: "https://apclassroom.collegeboard.org/d/tapwqbw3dq?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1QOnc8wCvA10U9AvoAfl9ksdmnzC7rIi1/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/y7ikpxw7jp?sui=33,8",
+                altUrl: "https://drive.google.com/file/d/1Aup8w5fYTy69zWogOdtsXCO6kl6UNCCT/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             },
             {
-                url: "https://apclassroom.collegeboard.org/d/utu3y3bkag?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1CaDaKiUhi3e954ZcpVYUEVpWZdKgNi0o/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/3uua57pe0x?sui=33,8",
+                altUrl: "https://drive.google.com/file/d/1Y7lopnXRCIbckoMM9csk8h1uCixX3LKd/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             },
             {
-                url: "https://apclassroom.collegeboard.org/d/pytemtrew7?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1eQUfrAiMrRCz1GpDzzQJ4ueBD3IQiD6z/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/z0hykwj3ge?sui=33,8",
+                altUrl: "https://drive.google.com/file/d/1FMDpI5aNP3UoB4YppkX3ba7llfvfhLba/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             }
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit7/7.2_quiz.pdf",
-                answersPdf: "pdfs/unit7/7.2_answers.pdf",
-                quizId: "7-2_q1",
+                questionPdf: "pdfs/unit8/unit8_section8.2_quiz.pdf",
+                answersPdf: "pdfs/unit8/unit8_section8.2_answers.pdf",
+                quizId: "8-2_q1",
                 completed: false,
                 completionDate: null
             }
@@ -1763,34 +2147,34 @@ const ALL_UNITS_DATA = [
         current: false
       },
       {
-        id: "7-3",
-        name: "Topic 7.3",
-        description: "Justifying a Claim About a Population Mean Based on a Confidence Interval",
+        id: "8-3",
+        name: "Topic 8.3",
+        description: "Carrying Out a Chi-Square Test for Goodness of Fit",
         videos: [
             {
-                url: "https://apclassroom.collegeboard.org/d/b1ywa7d80z?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/12f3_LWkXq3ezMJwDaFfGlxobizRKvj1I/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/9fkzxeaa5b?sui=33,8",
+                altUrl: "https://drive.google.com/file/d/1NemHYSwgnig3l3FUeyDYcDdt80aIYfd4/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             },
             {
-                url: "https://apclassroom.collegeboard.org/d/xk5a52ajgk?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1ie_ChlondI_Y1tiTlEum5OZAGovX5R2u/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/1rm91jvq1n?sui=33,8",
+                altUrl: "https://drive.google.com/file/d/1A3t8-9QW7ubguCrQdApGKf4GkZWb1qBi/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             },
             {
-                url: "https://apclassroom.collegeboard.org/d/lghtcfwy1x?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1VP_COxmeIU2S0jC24EgYgAnRqnsJz9B6/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/nayiwphnlr?sui=33,8",
+                altUrl: "https://drive.google.com/file/d/1tqgSvs4IHjltdUWtH7WmyqbPWGCMMoXb/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             }
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit7/7.3_quiz.pdf",
-                answersPdf: "pdfs/unit7/7.3_answers.pdf",
-                quizId: "7-3_q1",
+                questionPdf: "pdfs/unit8/unit8_section8.3_quiz.pdf",
+                answersPdf: "pdfs/unit8/unit8_section8.3_answers.pdf",
+                quizId: "8-3_q1",
                 completed: false,
                 completionDate: null
             }
@@ -1798,28 +2182,22 @@ const ALL_UNITS_DATA = [
         current: false
       },
       {
-        id: "7-4",
-        name: "Topic 7.4",
-        description: "Setting Up a Test for a Population Mean",
+        id: "8-4",
+        name: "Topic 8.4",
+        description: "Expected Counts in Two-Way Tables",
         videos: [
             {
-                url: "https://apclassroom.collegeboard.org/d/kyfddpb99h?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1ugAdsbFI9jyFAClJPphWtmva2DWNron2/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/2ufhcaan1t?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1093Dkx-RAxtiFVsWnnZ22rS1E6Tkhau6/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/hmyh34raqt?sui=33,8",
+                altUrl: "https://drive.google.com/file/d/16dgP2zYBVUN2qzFlGRXKZ5aqErJv8FyQ/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             }
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit7/7.4_quiz.pdf",
-                answersPdf: "pdfs/unit7/7.4_answers.pdf",
-                quizId: "7-4_q1",
+                questionPdf: "pdfs/unit8/unit8_section8.4_quiz.pdf",
+                answersPdf: "pdfs/unit8/unit8_section8.4_answers.pdf",
+                quizId: "8-4_q1",
                 completed: false,
                 completionDate: null
             }
@@ -1827,34 +2205,28 @@ const ALL_UNITS_DATA = [
         current: false
       },
       {
-        id: "7-5",
-        name: "Topic 7.5",
-        description: "Carrying Out a Test for the Population Mean",
+        id: "8-5",
+        name: "Topic 8.5",
+        description: "Setting Up a Chi-Square Test for Homogeneity or Independence",
         videos: [
             {
-                url: "https://apclassroom.collegeboard.org/d/6vq538ni85?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1h5r9eDoSwjLJye7PeHcz68AI5p-RDFeR/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/0bnpabex6u?sui=33,8",
+                altUrl: "https://drive.google.com/file/d/1YHP2ipcZ5Vj35OVgZBYwExUjfU-yB2q1/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             },
             {
-                url: "https://apclassroom.collegeboard.org/d/pc2evx8bvr?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/14CEJsy6KqSjm-kPilGkdhzSidogpeRf6/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/n1c6957pbw?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/13htsG5jUJZbwNCi9gAr1DEglECxHE-j5/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/kqfcpu28su?sui=33,8",
+                altUrl: "https://drive.google.com/file/d/1YHP2ipcZ5Vj35OVgZBYwExUjfU-yB2q1/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             }
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit7/7.5_quiz.pdf",
-                answersPdf: "pdfs/unit7/7.5_answers.pdf",
-                quizId: "7-5_q1",
+                questionPdf: "pdfs/unit8/unit8_section8.5_quiz.pdf",
+                answersPdf: "pdfs/unit8/unit8_section8.5_answers.pdf",
+                quizId: "8-5_q1",
                 completed: false,
                 completionDate: null
             }
@@ -1862,28 +2234,34 @@ const ALL_UNITS_DATA = [
         current: false
       },
       {
-        id: "7-6",
-        name: "Topic 7.6",
-        description: "Confidence Intervals for the Difference of Two Means",
+        id: "8-6",
+        name: "Topic 8.6",
+        description: "Carrying Out a Chi-Square Test for Homogeneity or Independence",
         videos: [
             {
-                url: "https://apclassroom.collegeboard.org/d/9i05oi3975?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1fIwr8VpJ1OfuMxmweLAYOL88CLUVpzvF/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/gp64nrb7vq?sui=33,8",
+                altUrl: "https://drive.google.com/file/d/1DS_LxyMAABbjaN3VrMjBcDXy0PwbDaP3/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             },
             {
-                url: "https://apclassroom.collegeboard.org/d/q64qp5gkag?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1dju4ZGQzNLFdFbR5oCoz4e9bzQHapIVk/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/88cjo73k9v?sui=33,8",
+                altUrl: "https://drive.google.com/file/d/1hm-K8vBzjXcx7hTdU2E8-0bIDhdUgiq_/view?usp=drive_link",
+                completed: false,
+                completionDate: null
+            },
+            {
+                url: "https://apclassroom.collegeboard.org/d/1ea6gxau2t?sui=33,8",
+                altUrl: "https://drive.google.com/file/d/1v9ENpspNX7MSsuE50ZXoQyizuGOJ35sp/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             }
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit7/7.6_quiz.pdf",
-                answersPdf: "pdfs/unit7/7.6_answers.pdf",
-                quizId: "7-6_q1",
+                questionPdf: "pdfs/unit8/unit8_section8.6_quiz.pdf",
+                answersPdf: "pdfs/unit8/unit8_section8.6_answers.pdf",
+                quizId: "8-6_q1",
                 completed: false,
                 completionDate: null
             }
@@ -1891,112 +2269,13 @@ const ALL_UNITS_DATA = [
         current: false
       },
       {
-        id: "7-7",
-        name: "Topic 7.7",
-        description: "Justifying a Claim About the Difference of Two Means Based on a Confidence Interval",
+        id: "8-7",
+        name: "Topic 8.7",
+        description: "Skills Focus: Selecting an Appropriate Inference Procedure for Categorical Data",
         videos: [
             {
-                url: "https://apclassroom.collegeboard.org/d/rgaf9khpy1?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1bkfmDJMIaDxbg2XTAnRfdpamFMSCFfM-/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/fbif6dujgq?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1njeWzbSUOPWw0fZHWoYBU7uca9RbduBU/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit7/7.7_quiz.pdf",
-                answersPdf: "pdfs/unit7/7.7_answers.pdf",
-                quizId: "7-7_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "7-8",
-        name: "Topic 7.8",
-        description: "Setting Up a Test for the Difference of Two Population Means",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/kf1yd6gpdi?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1uLGTaehZ2mRh5el69Zu88SnsWfwiKwRR/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/9xskxlobvm?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1PAx6MB_d4DDsF5KHYAbxjOf7VUP0_-E5/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit7/7.8_quiz.pdf",
-                answersPdf: "pdfs/unit7/7.8_answers.pdf",
-                quizId: "7-8_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "7-9",
-        name: "Topic 7.9",
-        description: "Carrying Out a Test for the Difference of Two Population Means",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/2kkmkj7ric?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1329C4d76DZoxl1yQQql_T9SAeoHedObV/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/j22ffmh28e?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1bJ-id40s9xbnD2UZp9bzfBAKxUwtOT2q/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/ox9np4xfys?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1BWoDK2CpQFkIjMsZtzrHb3VjiaJCQlw-/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit7/7.9_quiz.pdf",
-                answersPdf: "pdfs/unit7/7.9_answers.pdf",
-                quizId: "7-9_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "7-10",
-        name: "Topic 7.10",
-        description: "Skills Focus: Selecting, Implementing, and Communicating Inference Procedures",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/p1yut2e5pp?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/19SaxraKugKUY6Q1xjbanPY81njG45xBH/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/dkerwbidln?sui=33,7",
-                altUrl: "https://drive.google.com/file/d/1LiE45fJPP_XMvutGZzVtr3QfNicJedMi/view?usp=drive_link",
+                url: "https://apclassroom.collegeboard.org/d/v3kuvm87ss?sui=33,8",
+                altUrl: "https://drive.google.com/file/d/175SWda7WXUWkt1EbLLDOwKWD-4Gn8llx/view?usp=drive_link",
                 completed: false,
                 completionDate: null
             }
@@ -2005,36 +2284,29 @@ const ALL_UNITS_DATA = [
         current: false
       },
       {
-        id: "7-capstone",
-        name: "Unit 7 Progress Check",
+        id: "8-capstone",
+        name: "Unit 8 Progress Check",
         description: "Capstone Assessment",
         videos: [],
         quizzes: [
             {
-                questionPdf: "pdfs/unit7/unit7_pc_frq_quiz.pdf",
-                answersPdf: "pdfs/unit7/unit7_pc_frq_answers.pdf",
-                quizId: "7-capstone_q1",
+                questionPdf: "pdfs/unit8/unit8_pc_frq.pdf",
+                answersPdf: "pdfs/unit8/unit8_pc_frq_answers.pdf",
+                quizId: "8-capstone_q1",
                 completed: false,
                 completionDate: null
             },
             {
-                questionPdf: null,
-                answersPdf: "pdfs/unit7/unit7_pc_mcq_parta_answers.pdf",
-                quizId: "7-capstone_q2",
+                questionPdf: "pdfs/unit8/unit8_pc_mcq_partA_answers.pdf",
+                answersPdf: null,
+                quizId: "8-capstone_q2",
                 completed: false,
                 completionDate: null
             },
             {
-                questionPdf: null,
-                answersPdf: "pdfs/unit7/unit7_pc_mcq_partb_answers.pdf",
-                quizId: "7-capstone_q3",
-                completed: false,
-                completionDate: null
-            },
-            {
-                questionPdf: null,
-                answersPdf: "pdfs/unit7/unit7_pc_mcq_partc_answers.pdf",
-                quizId: "7-capstone_q4",
+                questionPdf: "pdfs/unit8/unit8_pc_mcq_partB_answers.pdf",
+                answersPdf: null,
+                quizId: "8-capstone_q3",
                 completed: false,
                 completionDate: null
             }
@@ -2088,8 +2360,8 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit9/9-2_quiz.pdf",
-                answersPdf: "pdfs/unit9/9-2_quiz_answer.pdf",
+                questionPdf: "pdfs/unit9/unit9_section9.2_quiz.pdf",
+                answersPdf: "pdfs/unit9/unit9_section9.2_answers.pdf",
                 quizId: "9-2_q1",
                 completed: false,
                 completionDate: null
@@ -2117,8 +2389,8 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit9/9-3_quiz.pdf",
-                answersPdf: "pdfs/unit9/9-3_quiz_answer.pdf",
+                questionPdf: "pdfs/unit9/unit9_section9.3_quiz.pdf",
+                answersPdf: "pdfs/unit9/unit9_section9.3_answers.pdf",
                 quizId: "9-3_q1",
                 completed: false,
                 completionDate: null
@@ -2146,8 +2418,8 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit9/9-4_quiz.pdf",
-                answersPdf: "pdfs/unit9/9-4_quiz_answer.pdf",
+                questionPdf: "pdfs/unit9/unit9_section9.4_quiz.pdf",
+                answersPdf: "pdfs/unit9/unit9_section9.4_answers.pdf",
                 quizId: "9-4_q1",
                 completed: false,
                 completionDate: null
@@ -2181,8 +2453,8 @@ const ALL_UNITS_DATA = [
         ],
         quizzes: [
             {
-                questionPdf: "pdfs/unit9/9-5_quiz.pdf",
-                answersPdf: "pdfs/unit9/9-5_quiz_answer.pdf",
+                questionPdf: "pdfs/unit9/unit9_section9.5_quiz.pdf",
+                answersPdf: "pdfs/unit9/unit9_section9.5_answers.pdf",
                 quizId: "9-5_q1",
                 completed: false,
                 completionDate: null
@@ -2212,22 +2484,22 @@ const ALL_UNITS_DATA = [
         videos: [],
         quizzes: [
             {
-                questionPdf: "pdfs/unit9/9-PC_FRQ_quiz.pdf",
-                answersPdf: "pdfs/unit9/9-PC_FRQ_answer.pdf",
+                questionPdf: "pdfs/unit9/unit9_pc_frq.pdf",
+                answersPdf: "pdfs/unit9/unit9_pc_frq_answers.pdf",
                 quizId: "9-capstone_q1",
                 completed: false,
                 completionDate: null
             },
             {
-                questionPdf: "pdfs/unit9/9-PC_MCQ_A_answer.pdf",
-                answersPdf: "pdfs/unit9/9-PC_MCQ_A_answer.pdf",
+                questionPdf: "pdfs/unit9/unit9_pc_mcq_partA_answers.pdf",
+                answersPdf: "pdfs/unit9/unit9_pc_mcq_partA_answers.pdf",
                 quizId: "9-capstone_q2",
                 completed: false,
                 completionDate: null
             },
             {
-                questionPdf: "pdfs/unit9/9-PC_MCQ_B_answer.pdf",
-                answersPdf: "pdfs/unit9/9-PC_MCQ_B_answer.pdf",
+                questionPdf: "pdfs/unit9/unit9_pc_mcq_partB_answers.pdf",
+                answersPdf: "pdfs/unit9/unit9_pc_mcq_partB_answers.pdf",
                 quizId: "9-capstone_q3",
                 completed: false,
                 completionDate: null
@@ -2238,229 +2510,7 @@ const ALL_UNITS_DATA = [
       }
     ]
   },
-  {
-    unitId: 'unit8',
-    topics: [
-      {
-        id: "8-1",
-        name: "Topic 8.1",
-        description: "Introducing Statistics: Are My Results Unexpected?",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/ej0nzh9akp?sui=33,8",
-                altUrl: "https://drive.google.com/file/d/1kw-NYDqOcOUP8zvAsSuzIfuQ9KXow99C/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [],
-        current: false
-      },
-      {
-        id: "8-2",
-        name: "Topic 8.2",
-        description: "Setting Up a Chi-Square Goodness of Fit Test",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/y7ikpxw7jp?sui=33,8",
-                altUrl: "https://drive.google.com/file/d/1Aup8w5fYTy69zWogOdtsXCO6kl6UNCCT/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/3uua57pe0x?sui=33,8",
-                altUrl: "https://drive.google.com/file/d/1Y7lopnXRCIbckoMM9csk8h1uCixX3LKd/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/z0hykwj3ge?sui=33,8",
-                altUrl: "https://drive.google.com/file/d/1FMDpI5aNP3UoB4YppkX3ba7llfvfhLba/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit8/8.2_quiz.pdf",
-                answersPdf: "pdfs/unit8/8.2_quiz_answer.pdf",
-                quizId: "8-2_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "8-3",
-        name: "Topic 8.3",
-        description: "Carrying Out a Chi-Square Test for Goodness of Fit",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/9fkzxeaa5b?sui=33,8",
-                altUrl: "https://drive.google.com/file/d/1NemHYSwgnig3l3FUeyDYcDdt80aIYfd4/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/1rm91jvq1n?sui=33,8",
-                altUrl: "https://drive.google.com/file/d/1A3t8-9QW7ubguCrQdApGKf4GkZWb1qBi/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/nayiwphnlr?sui=33,8",
-                altUrl: "https://drive.google.com/file/d/1tqgSvs4IHjltdUWtH7WmyqbPWGCMMoXb/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit8/8.3_quiz.pdf",
-                answersPdf: "pdfs/unit8/8.3_quiz_answer.pdf",
-                quizId: "8-3_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "8-4",
-        name: "Topic 8.4",
-        description: "Expected Counts in Two-Way Tables",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/hmyh34raqt?sui=33,8",
-                altUrl: "https://drive.google.com/file/d/16dgP2zYBVUN2qzFlGRXKZ5aqErJv8FyQ/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit8/8.4_quiz.pdf",
-                answersPdf: "pdfs/unit8/8.4_quiz_answer.pdf",
-                quizId: "8-4_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "8-5",
-        name: "Topic 8.5",
-        description: "Setting Up a Chi-Square Test for Homogeneity or Independence",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/0bnpabex6u?sui=33,8",
-                altUrl: "https://drive.google.com/file/d/1YHP2ipcZ5Vj35OVgZBYwExUjfU-yB2q1/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/kqfcpu28su?sui=33,8",
-                altUrl: "https://drive.google.com/file/d/1YHP2ipcZ5Vj35OVgZBYwExUjfU-yB2q1/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit8/8.5_quiz.pdf",
-                answersPdf: "pdfs/unit8/8.5_quiz_answer.pdf",
-                quizId: "8-5_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "8-6",
-        name: "Topic 8.6",
-        description: "Carrying Out a Chi-Square Test for Homogeneity or Independence",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/gp64nrb7vq?sui=33,8",
-                altUrl: "https://drive.google.com/file/d/1DS_LxyMAABbjaN3VrMjBcDXy0PwbDaP3/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/88cjo73k9v?sui=33,8",
-                altUrl: "https://drive.google.com/file/d/1hm-K8vBzjXcx7hTdU2E8-0bIDhdUgiq_/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            },
-            {
-                url: "https://apclassroom.collegeboard.org/d/1ea6gxau2t?sui=33,8",
-                altUrl: "https://drive.google.com/file/d/1v9ENpspNX7MSsuE50ZXoQyizuGOJ35sp/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit8/8.6_quiz.pdf",
-                answersPdf: "pdfs/unit8/8.6_quiz_answer.pdf",
-                quizId: "8-6_q1",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        current: false
-      },
-      {
-        id: "8-7",
-        name: "Topic 8.7",
-        description: "Skills Focus: Selecting an Appropriate Inference Procedure for Categorical Data",
-        videos: [
-            {
-                url: "https://apclassroom.collegeboard.org/d/v3kuvm87ss?sui=33,8",
-                altUrl: "https://drive.google.com/file/d/175SWda7WXUWkt1EbLLDOwKWD-4Gn8llx/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        quizzes: [],
-        current: false
-      },
-      {
-        id: "8-capstone",
-        name: "Unit 8 Progress Check",
-        description: "Capstone Assessment",
-        videos: [],
-        quizzes: [
-            {
-                questionPdf: "pdfs/unit8/8-PC_FRQ_quiz.pdf",
-                answersPdf: "pdfs/unit8/8-PC_FRQ_answer.pdf",
-                quizId: "8-capstone_q1",
-                completed: false,
-                completionDate: null
-            },
-            {
-                questionPdf: "pdfs/unit8/8-PC_MCQ_A_answer.pdf",
-                answersPdf: null,
-                quizId: "8-capstone_q2",
-                completed: false,
-                completionDate: null
-            },
-            {
-                questionPdf: "pdfs/unit8/8-PC_MCQ_B_answer.pdf",
-                answersPdf: null,
-                quizId: "8-capstone_q3",
-                completed: false,
-                completionDate: null
-            }
-        ],
-        isCapstone: true,
-        current: false
-      }
-    ]
-  }
+  
 ]; // End of ALL_UNITS_DATA array
 
 // Optional helper function to calculate totals (can be included in the same file)
